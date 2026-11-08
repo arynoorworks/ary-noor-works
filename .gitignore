@@ -1,0 +1,9 @@
+# Local editor/browser data
+.DS_Store
+*.local
+.env
+.env.*
+!.env.example
+
+# Temporary operating-system files
+Thumbs.db
