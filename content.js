@@ -3,7 +3,7 @@ window.PORTFOLIO = {
   "contentVersion": 11,
   "name": "ARY NOOR",
   "intro": "Director. Director of Photography. Producer. Videographer.",
-  "about": "Saya Ary Noor — Sya’ary Noor Ikhlasul Haq. Perjalanan filmmaking saya dimulai pada 2017, sejak masa SMP. Praktik saya berfokus pada sinematografi, pencahayaan, dan manajemen proyek, dengan semangat untuk terus belajar di setiap produksi. Dalam portofolio 2024, saya tercatat menempuh studi filmmaking dengan fokus sinematografi di Institut Seni Indonesia Yogyakarta.",
+  "about": "Currently studying Film and Television at the Indonesian Institute of the Arts Yogyakarta (ISI Yogyakarta), I am a filmmaker working across directing, cinematography, producing, and videography. Experienced in taking on multiple roles across diverse types of projects, I approach each work with a balance of creative exploration and substance, striving to create visuals that are not only aesthetically compelling but also meaningful. Grounded in professionalism and a continuous drive for growth, I embrace new challenges as opportunities to expand my creative perspective and practice.",
   "portrait": "assets/ary-noor-portrait-optimized.webp",
   "email": "ikhlasulhaq14@gmail.com",
   "instagram": "https://www.instagram.com/ikhlasulhaq_/",
