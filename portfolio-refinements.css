@@ -1,0 +1,59 @@
+/* Shared across every portfolio category and project detail. */
+.catalog.showcase-catalog .role-glass{display:none}
+.catalog.showcase-catalog .role-tabs a,.catalog.showcase-catalog .role-tabs .role-label,.catalog.showcase-catalog .role-label:after{transition:none!important;animation:none!important}
+.catalog.showcase-catalog .role-tabs a[aria-current=page]{opacity:1;background:#c7e8ff18!important;border:1px solid #d5efff55}
+.project-showcase .showcase-projects{top:0;bottom:0;left:6%;right:auto;width:min(36%,430px);max-height:none;display:flex;flex-direction:column;flex-wrap:nowrap;justify-content:center;align-items:flex-start;gap:26px;overflow:auto;padding:45px 0}
+.project-showcase .showcase-projects button{border:0!important;text-decoration:none;font-size:clamp(16px,1.7vw,25px);line-height:1.35;padding:6px 0}
+.project-showcase .showcase-stage:after{background:linear-gradient(90deg,#061326da, #06132660 40%,transparent 75%),linear-gradient(0deg,#08193166,transparent 50%)}
+.video-preview-open{overflow:hidden}
+.video-preview-dialog{position:fixed;inset:0;width:100vw;height:100dvh;max-width:none;max-height:none;padding:6%;margin:0;border:0;background:#03080f;color:#f2f7ff}
+.video-preview-dialog::backdrop{background:#03080f}
+.video-preview-content{height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;text-align:center}
+.video-preview-content h2{font:700 clamp(20px,3vw,40px)/1.25 Arial,sans-serif;margin:0;max-width:900px}
+.video-preview-content p{color:#b5c6df}
+.video-preview-content video{width:100%;height:auto;max-height:75dvh;object-fit:contain}
+.video-preview-close{position:absolute;z-index:2;right:5%;top:26px}
+@media(max-width:700px){.project-showcase .showcase-projects{width:48%;gap:18px;padding:25px 0}.project-showcase .showcase-projects button{font-size:14px}.project-showcase .showcase-stage:after{background:linear-gradient(90deg,#061326ed,#06132660 65%,transparent)}}
+.catalog.showcase-catalog .role-tabs a{font-weight:400!important;transform:none!important;transition:opacity .65s ease,color .65s ease,text-shadow .65s ease}
+.role-label{position:relative;display:inline-block;transition:color .65s ease}
+.role-label:before{content:attr(data-label);font-weight:700;display:block;height:0;visibility:hidden;overflow:hidden}
+.role-label:after{content:attr(data-label);position:absolute;inset:0;font-weight:700;color:var(--paper);opacity:0;transition:opacity .65s ease}
+.catalog.showcase-catalog .role-tabs a:hover .role-label,.catalog.showcase-catalog .role-tabs a:focus-visible .role-label{color:transparent}
+.catalog.showcase-catalog .role-tabs a:hover .role-label:after,.catalog.showcase-catalog .role-tabs a:focus-visible .role-label:after{opacity:1}
+.project-showcase{position:relative;isolation:isolate;min-height:65vh;background:#061528;overflow:hidden}
+.showcase-stage{display:block;position:relative;height:clamp(460px,72vh,900px);overflow:hidden}
+.showcase-images{position:absolute;inset:0;background:radial-gradient(ellipse at 70% 40%,#20496d,#071526)}
+.project-grab{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.015);transition:opacity 1.4s ease;animation:grab-drift 14s ease-out both}
+.project-grab.is-visible{opacity:1}
+@keyframes grab-drift{to{transform:scale(1.09)}}
+.showcase-stage:after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#061326e8, #06132650 26%,transparent 55%,#08193180)}
+.showcase-projects{position:absolute;top:30px;left:6%;right:6%;z-index:3;display:flex;flex-wrap:wrap;gap:12px 28px;max-height:38%;overflow:auto;padding:6px 2px 12px}
+.showcase-projects button{border:0;background:none;color:#eaf4ff88;font:700 clamp(13px,1.5vw,20px)/1.5 Arial,sans-serif;text-align:left;cursor:pointer;padding:4px 0;transition:color .5s,text-shadow .5s;border-bottom:1px solid transparent}
+.showcase-projects button:hover,.showcase-projects button:focus-visible,.showcase-projects button[aria-pressed=true]{color:#fff;text-shadow:0 2px 16px #0008}
+.showcase-projects button[aria-pressed=true]{border-bottom-color:#d9f0ff90}
+.showcase-caption{position:absolute;bottom:28px;left:6%;z-index:2;color:#d9e8f5;font-size:12px}
+.showcase-empty{position:absolute;left:6%;top:45%}
+.project-detail .back-link.glass-button{display:inline-flex;align-items:center;justify-content:center;padding:12px 25px;min-width:90px;font-size:14px;border-radius:24px}
+@media(max-width:700px){.showcase-stage{height:68svh;min-height:430px}.showcase-projects{top:22px;gap:10px 20px}.showcase-projects button{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.project-grab{animation:none;transition:none}.role-label,.role-label:after,.catalog.showcase-catalog .role-tabs a{transition:none}}
+.catalog .role-tabs a{opacity:.5;transform:scale(1);transition:opacity .45s,transform .55s cubic-bezier(.22,1,.36,1),text-shadow .4s}
+.catalog .role-tabs a:hover,.catalog .role-tabs a:focus-visible{opacity:1;font-weight:700;transform:scale(1.045)}
+.catalog .bts-hero .bts-frame{animation:none;will-change:transform,opacity}
+.project-tile .tile-play{display:none}
+.project-tile{transform-style:preserve-3d;transition:transform .6s cubic-bezier(.22,1,.36,1)}
+.project-tile:hover,.project-tile:focus-visible{transform:perspective(950px) translateY(-6px) rotateX(var(--tilt-x,0deg)) rotateY(var(--tilt-y,0deg))}
+.project-tile .tile-image{transition:box-shadow .55s,border-color .55s,transform .55s;border:1px solid #d4efff40;isolation:isolate}
+.project-tile .tile-image:before{content:'';position:absolute;inset:0;z-index:3;pointer-events:none;border-radius:inherit;background:radial-gradient(ellipse at var(--shine-x,50%) var(--shine-y,20%),#e1f6ff55,transparent 62%),linear-gradient(135deg,#ffffff12,transparent 48%,#c4edff18);opacity:0;transition:opacity .5s;box-shadow:inset 0 2px 2px #fff8,inset 0 -3px 8px #a1daff66}
+.project-tile:hover .tile-image,.project-tile:focus-visible .tile-image{border-color:#e0f6ffb0;box-shadow:0 14px 30px #020d334a,0 0 15px #b7e4ff20;transform:scale(1.025)}
+.project-tile:hover .tile-image:before,.project-tile:focus-visible .tile-image:before{opacity:1}
+.project-tile:active{transform:perspective(950px) scale(.985)}
+@media(prefers-reduced-motion:reduce){.project-tile,.project-tile .tile-image,.catalog .role-tabs a{transition:none!important;transform:none!important}.catalog .bts-hero .bts-frame{will-change:auto}}
+.project-tile h3,.page.project-detail h1{font-weight:700}
+.catalog .role-tabs{gap:6px;padding-top:24px;padding-bottom:28px}
+.catalog .role-tabs a{border:1px solid transparent;background:transparent!important;border-radius:24px;padding:14px 21px;transition:color .25s,text-shadow .25s;outline-offset:2px}
+.catalog .role-tabs a:hover,.catalog .role-tabs a[aria-current]{text-shadow:0 1px 10px #c6eeff65}
+.catalog .role-glass,.catalog .glass-ready .role-glass{transition:none;will-change:transform,width,height,border-radius;overflow:hidden;background:radial-gradient(ellipse at var(--refract-x,30%) 0%,#e8faff42,transparent 62%),linear-gradient(160deg,#cfefff29,#85bce014 50%,#79c4ff30);border:1px solid #d5f1ff80;backdrop-filter:blur(26px) saturate(1.8);-webkit-backdrop-filter:blur(26px) saturate(1.8);box-shadow:inset 0 1px 1px #fff9,inset 1px 0 2px #d4f5ff60,inset 0 -2px 4px #c2edff45,0 5px 18px #020c2435}
+.role-glass:before{content:'';position:absolute;inset:1px;border-radius:inherit;background:linear-gradient(115deg,transparent 10%,#fff2 35%,transparent 60%);opacity:calc(.35 + var(--liquid-speed,0)*.5);filter:blur(3px)}
+.role-glass:after{content:'';position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 -8px 14px #71c5ff18;pointer-events:none}
+@media(max-width:700px){.catalog .role-tabs{gap:4px}.catalog .role-tabs a{font-size:11px;padding:12px 13px}}
+@media(prefers-reduced-motion:reduce){.catalog .role-glass{will-change:auto}}

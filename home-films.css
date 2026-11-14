@@ -1,0 +1,18 @@
+/* ANW opening flows into full-bleed project panels. */
+.home-film-sequence{position:relative;background:#061326;isolation:isolate;scroll-margin-top:0}
+.home-film-panel{min-height:92svh;position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;padding:42px 6% 36px;border-top:1px solid #d9edff35;background:#071a2e}
+.home-film-image,.home-film-shade{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.home-film-image{z-index:-2}.home-film-shade{z-index:-1;background:linear-gradient(180deg,#06132655,transparent 35%,#04101b99 75%,#04101bd9),linear-gradient(90deg,#07172c55,transparent 70%)}
+.home-film-top{display:flex;justify-content:space-between;align-items:center;gap:24px;color:#e7f3ff;font-size:13px;margin-top:65px}
+.home-film-role{padding:9px 16px;border-radius:24px;border:1px solid #dbf1ff55;background:#8cc6ed0d;backdrop-filter:blur(16px)}
+.home-film-top>a{padding:10px 0;border-bottom:1px solid #deefff70}
+.home-film-bottom{margin-top:35vh}
+.home-film-actions{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-bottom:20px;font-size:14px}
+.home-film-actions .glass-button{font-size:14px;padding:14px 22px;color:#fff}
+.home-film-bottom h2{font:700 clamp(52px,8.7vw,150px)/.96 Helvetica,"Helvetica Neue",Arial,sans-serif;letter-spacing:-.055em;margin:0;max-width:1400px;text-wrap:balance}
+.home-film-bottom h2 a{display:block;transition:opacity .25s}.home-film-bottom h2 a:hover{opacity:.8}
+.home-film-end{padding:35px 6%;display:flex;justify-content:space-between;align-items:center;gap:25px;background:linear-gradient(#061326,#0c2842)}
+.home-film-end>a:not(.glass-button){font-size:14px;border-bottom:1px solid #e0efff66;padding:10px 0}
+.welcome-home .profile-hero{border-top:0}
+@media(max-width:700px){.home-film-panel{min-height:85svh;padding:30px 6%}.home-film-top{font-size:11px}.home-film-actions{align-items:flex-start;flex-direction:column;gap:15px}.home-film-bottom h2{font-size:clamp(43px,11.5vw,78px);line-height:1}.home-film-end{flex-wrap:wrap}.home-film-bottom{margin-top:35vh}}
+@media(prefers-reduced-motion:reduce){.home-film-bottom h2 a{transition:none}}

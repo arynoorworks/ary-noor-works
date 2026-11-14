@@ -1,0 +1,12 @@
+/* Stable portfolio chrome: no shared moving indicator or backdrop sampling. */
+body.portfolio-view{background:#0a223b;background-image:radial-gradient(ellipse at 90% 0%,#1b4771,transparent 70%),linear-gradient(120deg,#091a2e,#102e49);background-attachment:fixed}
+.portfolio-view .top-frost{height:110px;opacity:1;background:linear-gradient(180deg,#030c18c9, #06132670 45%,transparent);backdrop-filter:none;-webkit-backdrop-filter:none;mask:none;-webkit-mask:none;transition:none}
+.portfolio-view .catalog.showcase-catalog .role-tabs{display:flex;gap:4px;width:fit-content;max-width:88%;margin:20px 6% 26px;padding:6px;border:1px solid #cce7ff26;border-radius:25px;background:linear-gradient(135deg,#c0dfff12,#9fcfff08);box-shadow:inset 0 1px 0 #edf8ff15,0 8px 28px #020d211a}
+.portfolio-view .catalog.showcase-catalog .role-tabs a{font-family:Helvetica,Arial,sans-serif;font-size:14px;font-weight:500!important;padding:13px 20px;border:1px solid transparent;border-radius:19px;opacity:1;color:#b2c6d9!important;background:transparent!important;text-shadow:none!important;transition:background-color .2s ease,color .2s ease,border-color .2s ease!important}
+.portfolio-view .catalog.showcase-catalog .role-tabs a:hover,.portfolio-view .catalog.showcase-catalog .role-tabs a:focus-visible{color:#fff!important;background:#b9deff0e!important}
+.portfolio-view .catalog.showcase-catalog .role-tabs a[aria-current=page]{color:#fff!important;background:#c9e8ff1c!important;border-color:#e1f3ff4d;box-shadow:inset 0 1px 0 #fff2}
+.project-showcase .showcase-projects{width:min(52%,700px);gap:8px}
+.project-showcase .showcase-projects button{font-family:Helvetica,"Helvetica Neue",Arial,sans-serif;font-weight:700;font-size:clamp(23px,2.65vw,40px);line-height:1.13;letter-spacing:-.035em;padding:7px 0}
+.video-preview-dialog .video-preview-close{color:#fff}
+@media(max-width:700px){.portfolio-view .catalog.showcase-catalog .role-tabs{gap:3px;margin-top:12px;margin-bottom:20px;border-radius:22px}.portfolio-view .catalog.showcase-catalog .role-tabs a{font-size:11px;padding:11px 12px;border-radius:16px}.project-showcase .showcase-projects{width:68%;gap:9px}.project-showcase .showcase-projects button{font-size:clamp(19px,4.7vw,27px);line-height:1.15}}
+@media(prefers-reduced-motion:reduce){.portfolio-view .catalog.showcase-catalog .role-tabs a{transition:none!important}}

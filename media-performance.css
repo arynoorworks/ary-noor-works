@@ -1,0 +1,13 @@
+/* Minimum cover scale fills the category canvas; motion never shrinks below it. */
+.project-grab{inset:0;width:100%;height:100%;object-fit:cover;object-position:right center;transition:opacity 2s ease-in-out;animation:grab-breathe 5s ease-in-out both;transform-origin:right center}
+@keyframes grab-breathe{from{transform:scale(1)}to{transform:scale(1.015)}}
+.showcase-extension{display:none!important}
+.home-film-image,.home-film-bottom{will-change:auto}
+.home-film-panel.is-active .home-film-image,.home-film-panel.is-active .home-film-bottom{will-change:transform}
+.home-film-panel.is-covered .home-film-image,.home-film-panel.is-covered .home-film-shade,.home-film-panel.is-covered .home-film-bottom,.home-film-panel.is-covered .home-film-top{visibility:hidden}
+.home-film-image{opacity:0;transition:opacity .35s ease}
+.home-film-image.is-decoded{opacity:1}
+.welcome.is-outside .glass-depth-scene,.welcome.is-outside .glass-depth-light,.welcome.is-outside .ambient-glow{animation-play-state:paused}
+.profile-hero .hero-portrait img{mask-image:url('assets/portrait-matte-lossless.webp');-webkit-mask-image:url('assets/portrait-matte-lossless.webp')}
+@media(max-width:700px){.project-grab{inset:0;width:100%;height:57%;object-position:right top}.home-film-image,.home-film-panel:nth-of-type(3) .home-film-image{transform:translate3d(0,var(--image-y,0px),0)}}
+@media(prefers-reduced-motion:reduce){.project-grab{animation:none;transition:none}.home-film-image{transition:none;transform:none}}

@@ -1,0 +1,13 @@
+.git/**
+.github/**
+exports/**
+tmp/**
+tools/**
+node_modules/**
+*.zip
+*.md
+*-preview.png
+SHA256.json
+.DS_Store
+.env*
+wrangler.jsonc

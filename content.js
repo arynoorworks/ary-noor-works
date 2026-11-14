@@ -1,10 +1,10 @@
-// Draft 0.7. Foto hasil retouch dan perluasan sesuai permintaan pengguna.
+// Portfolio material v11 — source quality and neutral showcase.
 window.PORTFOLIO = {
-  "contentVersion": 7,
+  "contentVersion": 11,
   "name": "ARY NOOR",
   "intro": "Director. Director of Photography. Producer. Videographer.",
   "about": "Saya Ary Noor — Sya’ary Noor Ikhlasul Haq. Perjalanan filmmaking saya dimulai pada 2017, sejak masa SMP. Praktik saya berfokus pada sinematografi, pencahayaan, dan manajemen proyek, dengan semangat untuk terus belajar di setiap produksi. Dalam portofolio 2024, saya tercatat menempuh studi filmmaking dengan fokus sinematografi di Institut Seni Indonesia Yogyakarta.",
-  "portrait": "assets/ary-noor-portrait.png",
+  "portrait": "assets/ary-noor-portrait-optimized.webp",
   "email": "ikhlasulhaq14@gmail.com",
   "instagram": "https://www.instagram.com/ikhlasulhaq_/",
   "phone": "+6281542569560",
@@ -30,30 +30,8 @@ window.PORTFOLIO = {
       "tone": "blue",
       "roles": [
         "Director of Photography"
-      ]
-    },
-    {
-      "id": "little-league",
-      "title": "LITTLE LEAGUE: FROM AMBITION I LEARN",
-      "category": "Narrative",
-      "year": "2023",
-      "role": "Director of Photography",
-      "description": "Film pendek oleh PiHappy Production. Sinopsis lengkap belum disertakan dalam materi portofolio.",
-      "craft": "Sebuah tantangan untuk menemukan treatment visual yang khas dan membantu sutradara menyampaikan cerita melalui gambar.",
-      "cover": "assets/little-league.jpg",
-      "video": "",
-      "watchUrl": "https://bit.ly/PiHappyLittleLeague",
-      "credits": [
-        "Director of Photography — Ary Noor",
-        "Production — PiHappy Production"
       ],
-      "stills": [
-        "assets/little-league.jpg"
-      ],
-      "tone": "blue",
-      "roles": [
-        "Director of Photography"
-      ]
+      "focalPoint": "right center"
     },
     {
       "id": "maafkan-aku-shifu",
@@ -63,7 +41,7 @@ window.PORTFOLIO = {
       "role": "Director",
       "description": "Iklan komersial untuk PT. Dragon Prima Farma.",
       "craft": "Pengalaman memimpin 20 kru untuk menyatukan kebutuhan kreatif dan kebutuhan promosi klien dalam sebuah produksi profesional.",
-      "cover": "assets/maafkan-aku-shifu.png",
+      "cover": "assets/portfolio-v11/maafkan-aku-shifu/01.webp",
       "video": "",
       "watchUrl": "https://drive.google.com/file/d/1eANq9l1I8a5xBkkyHDLaPssp04PfWAsQ/view?usp=drivesdk",
       "credits": [
@@ -71,35 +49,13 @@ window.PORTFOLIO = {
         "Client — PT. Dragon Prima Farma"
       ],
       "stills": [
-        "assets/maafkan-aku-shifu.png"
+        "assets/portfolio-v11/maafkan-aku-shifu/01.webp"
       ],
       "tone": "blue",
       "roles": [
         "Director"
-      ]
-    },
-    {
-      "id": "budi-si-penasaran",
-      "title": "BUDI SI PENASARAN DAN CAHAYANYA",
-      "category": "Public service",
-      "year": "2023",
-      "role": "Director of Photography",
-      "description": "Iklan layanan masyarakat oleh Kids Friendly Cinema System.",
-      "craft": "Mendukung visi sutradara melalui sinematografi yang melayani cerita dan kebutuhan film.",
-      "cover": "assets/budi.png",
-      "video": "",
-      "watchUrl": "https://youtu.be/M0VS_vLpa-U?si=kFkeG9iw5m1NVwic",
-      "credits": [
-        "Director of Photography — Ary Noor",
-        "Production — Kids Friendly Cinema System"
       ],
-      "stills": [
-        "assets/budi.png"
-      ],
-      "tone": "blue",
-      "roles": [
-        "Director of Photography"
-      ]
+      "focalPoint": "right center"
     },
     {
       "id": "pangarep",
@@ -122,144 +78,284 @@ window.PORTFOLIO = {
       "tone": "blue",
       "roles": [
         "Director"
-      ]
+      ],
+      "focalPoint": "right center"
     },
     {
-      "id": "when-the-poor-boy-was-dreaming",
-      "title": "WHEN THE POOR BOY WAS DREAMING",
-      "category": "Narrative",
-      "year": "2021",
-      "role": "Director of Photography",
-      "description": "Film pendek oleh Si Damar. Pada portofolio 2024, tautan tontonan masih berstatus coming soon; status rilis terkini belum dikonfirmasi.",
-      "craft": "Eksplorasi treatment neorealisme melalui referensi dan diskusi: mendekatkan penonton pada cerita melalui visual yang terasa tidak sempurna, namun dekat dengan kehidupan.",
-      "cover": "assets/poor-boy.png",
-      "video": "",
-      "watchUrl": "",
-      "credits": [
-        "Director of Photography — Ary Noor",
-        "Short film — Si Damar"
+      "id": "let-it-stay-with-you",
+      "title": "LET IT STAY WITH YOU",
+      "category": "Hotel film",
+      "year": "—",
+      "role": "Director",
+      "roles": [
+        "Director"
       ],
+      "description": "Video looping untuk lobi Crystal Lotus Hotel.",
+      "craft": "Catatan kreatif belum disertakan dalam materi.",
+      "cover": "assets/portfolio-v11/let-it-stay-with-you/01.webp",
+      "video": "",
+      "watchUrl": "https://www.youtube.com/watch?v=lxVerPF_DYM&t=73s",
+      "credits": [],
       "stills": [
-        "assets/poor-boy.png"
+        "assets/portfolio-v11/let-it-stay-with-you/01.webp",
+        "assets/portfolio-v11/let-it-stay-with-you/02.webp",
+        "assets/portfolio-v11/let-it-stay-with-you/03.webp",
+        "assets/portfolio-v11/let-it-stay-with-you/04.webp",
+        "assets/portfolio-v11/let-it-stay-with-you/05.webp",
+        "assets/portfolio-v11/let-it-stay-with-you/06.webp",
+        "assets/portfolio-v11/let-it-stay-with-you/07.webp",
+        "assets/portfolio-v11/let-it-stay-with-you/08.webp",
+        "assets/portfolio-v11/let-it-stay-with-you/09.webp"
       ],
       "tone": "blue",
+      "focalPoint": "right center"
+    },
+    {
+      "id": "marongan",
+      "title": "MARONGAN",
+      "category": "Short film",
+      "year": "—",
+      "role": "Director",
+      "roles": [
+        "Director"
+      ],
+      "description": "Film pendek. Ditandai Coming soon pada materi portfolio; status rilis terkini belum dikonfirmasi.",
+      "craft": "Catatan kreatif belum disertakan dalam materi.",
+      "cover": "assets/marongan-clean/marongan-01.png",
+      "video": "",
+      "watchUrl": "",
+      "credits": [],
+      "stills": [
+        "assets/marongan-clean/marongan-01.png",
+        "assets/marongan-clean/marongan-02.png",
+        "assets/marongan-clean/marongan-03.png",
+        "assets/marongan-clean/marongan-04.png",
+        "assets/marongan-clean/marongan-05.png",
+        "assets/marongan-clean/marongan-06.png",
+        "assets/marongan-clean/marongan-07.png"
+      ],
+      "tone": "blue",
+      "focalPoint": "right center"
+    },
+    {
+      "id": "untag-company-profile",
+      "title": "UNTAG COMPANY PROFILE",
+      "category": "Company profile",
+      "role": "Director",
+      "roles": [
+        "Director"
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=EBqMgOHmtPI",
+      "year": "—",
+      "description": "Company profile.",
+      "craft": "",
+      "credits": [],
+      "video": "",
+      "tone": "blue",
+      "stills": [
+        "assets/portfolio-v11/untag-company-profile/01.webp",
+        "assets/portfolio-v11/untag-company-profile/02.webp",
+        "assets/portfolio-v11/untag-company-profile/03.webp",
+        "assets/portfolio-v11/untag-company-profile/04.webp",
+        "assets/portfolio-v11/untag-company-profile/05.webp",
+        "assets/portfolio-v11/untag-company-profile/06.webp",
+        "assets/portfolio-v11/untag-company-profile/07.webp",
+        "assets/portfolio-v11/untag-company-profile/08.webp",
+        "assets/portfolio-v11/untag-company-profile/09.webp",
+        "assets/portfolio-v11/untag-company-profile/10.webp",
+        "assets/portfolio-v11/untag-company-profile/11.webp"
+      ],
+      "cover": "assets/portfolio-v11/untag-company-profile/01.webp",
+      "focalPoint": "right center"
+    },
+    {
+      "id": "lempar-bola-disko",
+      "title": "LEMPAR BOLA DISKO",
+      "category": "Music video",
+      "role": "Director of Photography",
       "roles": [
         "Director of Photography"
-      ]
+      ],
+      "watchUrl": "https://www.youtube.com/watch?v=x4IU6XJqwew&list=RDx4IU6XJqwew&start_radio=1",
+      "year": "—",
+      "description": "Music video.",
+      "craft": "",
+      "credits": [],
+      "video": "",
+      "tone": "blue",
+      "stills": [
+        "assets/portfolio-v11/lempar-bola-disko/01.webp",
+        "assets/portfolio-v11/lempar-bola-disko/02.webp",
+        "assets/portfolio-v11/lempar-bola-disko/03.webp",
+        "assets/portfolio-v11/lempar-bola-disko/04.webp",
+        "assets/portfolio-v11/lempar-bola-disko/05.webp",
+        "assets/portfolio-v11/lempar-bola-disko/06.webp",
+        "assets/portfolio-v11/lempar-bola-disko/07.webp"
+      ],
+      "cover": "assets/portfolio-v11/lempar-bola-disko/01.webp",
+      "focalPoint": "right center"
     },
     {
-      "id": "dummy-producer-1",
-      "title": "Producer project 01",
-      "category": "Concept preview",
-      "year": "Draft",
+      "id": "panggung-maya-banda-neira",
+      "title": "PANGGUNG MAYA BANDA NEIRA",
+      "category": "Live music",
+      "role": "Director of Photography",
+      "roles": [
+        "Director of Photography"
+      ],
+      "watchUrl": "https://youtu.be/MbNKqXe0-Sk?si=G2EbzYrUecHsnAN-",
+      "year": "—",
+      "description": "Live music.",
+      "craft": "",
+      "credits": [],
+      "video": "",
+      "tone": "blue",
+      "stills": [
+        "assets/portfolio-v11/panggung-maya-banda-neira/01.webp",
+        "assets/portfolio-v11/panggung-maya-banda-neira/02.webp"
+      ],
+      "cover": "assets/portfolio-v11/panggung-maya-banda-neira/01.webp",
+      "focalPoint": "right center"
+    },
+    {
+      "id": "setiap-orang-punya-kesempatan",
+      "title": "SETIAP ORANG PUNYA KESEMPATAN",
+      "category": "Branded short film",
+      "role": "Director of Photography",
+      "roles": [
+        "Director of Photography"
+      ],
+      "watchUrl": "https://www.instagram.com/reel/DVYjg0UEdZM/?utm_source=ig_web_copy_link&xtok=MzRlODBiNWFlZA==&srtk=MzRlODBiNWFlZA==",
+      "year": "—",
+      "description": "Branded short film.",
+      "craft": "",
+      "credits": [],
+      "video": "",
+      "tone": "blue",
+      "stills": [
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/01.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/02.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/03.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/04.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/05.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/06.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/07.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/08.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/09.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/10.webp",
+        "assets/portfolio-v11/setiap-orang-punya-kesempatan/11.webp"
+      ],
+      "cover": "assets/portfolio-v11/setiap-orang-punya-kesempatan/01.webp",
+      "focalPoint": "right center"
+    },
+    {
+      "id": "a-little-longer",
+      "title": "A LITTLE LONGER",
+      "category": "Branded short film",
       "role": "Producer",
       "roles": [
         "Producer"
       ],
-      "dummy": true,
-      "description": "Proyek dummy untuk mengeksplorasi tampilan katalog. Bukan klaim karya atau kredit nyata Ary Noor.",
-      "craft": "Materi proyek, sinopsis, dan kredit akan diganti setelah dikonfirmasi.",
-      "cover": "",
-      "video": "",
-      "watchUrl": "",
+      "watchUrl": "https://www.youtube.com/watch?v=GmGlXY5Apls&t=34s",
+      "year": "—",
+      "description": "Branded short film.",
+      "craft": "",
       "credits": [],
-      "stills": [],
-      "tone": "blue"
+      "video": "",
+      "tone": "blue",
+      "stills": [
+        "assets/portfolio-v11/a-little-longer/01.webp",
+        "assets/portfolio-v11/a-little-longer/02.webp",
+        "assets/portfolio-v11/a-little-longer/03.webp",
+        "assets/portfolio-v11/a-little-longer/04.webp",
+        "assets/portfolio-v11/a-little-longer/05.webp",
+        "assets/portfolio-v11/a-little-longer/06.webp",
+        "assets/portfolio-v11/a-little-longer/07.webp",
+        "assets/portfolio-v11/a-little-longer/08.webp"
+      ],
+      "cover": "assets/portfolio-v11/a-little-longer/01.webp",
+      "focalPoint": "right center"
     },
     {
-      "id": "dummy-producer-2",
-      "title": "Producer project 02",
-      "category": "Concept preview",
-      "year": "Draft",
+      "id": "a-silent-collar",
+      "title": "A SILENT COLLAR",
+      "category": "Short film",
       "role": "Producer",
       "roles": [
         "Producer"
       ],
-      "dummy": true,
-      "description": "Proyek dummy untuk mengeksplorasi tampilan katalog. Bukan klaim karya atau kredit nyata Ary Noor.",
-      "craft": "Materi proyek, sinopsis, dan kredit akan diganti setelah dikonfirmasi.",
-      "cover": "",
-      "video": "",
-      "watchUrl": "",
+      "watchUrl": "https://open.noice.id/content/10905371-9daf-43db-846a-a84b1a5af9d8",
+      "year": "—",
+      "description": "Short film.",
+      "craft": "",
       "credits": [],
-      "stills": [],
-      "tone": "blue"
-    },
-    {
-      "id": "dummy-producer-3",
-      "title": "Producer project 03",
-      "category": "Concept preview",
-      "year": "Draft",
-      "role": "Producer",
-      "roles": [
-        "Producer"
+      "video": "",
+      "tone": "blue",
+      "stills": [
+        "assets/portfolio-v11/a-silent-collar/01.webp",
+        "assets/portfolio-v11/a-silent-collar/02.webp",
+        "assets/portfolio-v11/a-silent-collar/03.webp",
+        "assets/portfolio-v11/a-silent-collar/04.webp",
+        "assets/portfolio-v11/a-silent-collar/05.webp"
       ],
-      "dummy": true,
-      "description": "Proyek dummy untuk mengeksplorasi tampilan katalog. Bukan klaim karya atau kredit nyata Ary Noor.",
-      "craft": "Materi proyek, sinopsis, dan kredit akan diganti setelah dikonfirmasi.",
-      "cover": "",
-      "video": "",
-      "watchUrl": "",
-      "credits": [],
-      "stills": [],
-      "tone": "blue"
+      "cover": "assets/portfolio-v11/a-silent-collar/01.webp",
+      "focalPoint": "right center"
     },
     {
-      "id": "dummy-videographer-1",
-      "title": "Videographer project 01",
-      "category": "Concept preview",
-      "year": "Draft",
+      "id": "lagi-lagi-fest",
+      "title": "LAGI LAGI FEST",
+      "category": "Concert",
       "role": "Videographer",
       "roles": [
         "Videographer"
       ],
-      "dummy": true,
-      "description": "Proyek dummy untuk mengeksplorasi tampilan katalog. Bukan klaim karya atau kredit nyata Ary Noor.",
-      "craft": "Materi proyek, sinopsis, dan kredit akan diganti setelah dikonfirmasi.",
-      "cover": "",
-      "video": "",
-      "watchUrl": "",
+      "watchUrl": "https://www.youtube.com/results?search_query=lagi+lagi+fest+aftermovie",
+      "year": "—",
+      "description": "Concert.",
+      "craft": "",
       "credits": [],
-      "stills": [],
-      "tone": "blue"
+      "video": "",
+      "tone": "blue",
+      "stills": [
+        "assets/portfolio-v11/lagi-lagi-fest/01.webp",
+        "assets/portfolio-v11/lagi-lagi-fest/02.webp",
+        "assets/portfolio-v11/lagi-lagi-fest/03.webp",
+        "assets/portfolio-v11/lagi-lagi-fest/04.webp",
+        "assets/portfolio-v11/lagi-lagi-fest/05.webp",
+        "assets/portfolio-v11/lagi-lagi-fest/06.webp",
+        "assets/portfolio-v11/lagi-lagi-fest/07.webp"
+      ],
+      "cover": "assets/portfolio-v11/lagi-lagi-fest/01.webp",
+      "focalPoint": "right center"
     },
     {
-      "id": "dummy-videographer-2",
-      "title": "Videographer project 02",
-      "category": "Concept preview",
-      "year": "Draft",
+      "id": "urup-2026",
+      "title": "URUP 2026",
+      "category": "Concert",
       "role": "Videographer",
       "roles": [
         "Videographer"
       ],
-      "dummy": true,
-      "description": "Proyek dummy untuk mengeksplorasi tampilan katalog. Bukan klaim karya atau kredit nyata Ary Noor.",
-      "craft": "Materi proyek, sinopsis, dan kredit akan diganti setelah dikonfirmasi.",
-      "cover": "",
-      "video": "",
-      "watchUrl": "",
+      "watchUrl": "https://www.youtube.com/watch?v=e6eoQMdSjeY",
+      "year": "—",
+      "description": "Concert.",
+      "craft": "",
       "credits": [],
-      "stills": [],
-      "tone": "blue"
-    },
-    {
-      "id": "dummy-videographer-3",
-      "title": "Videographer project 03",
-      "category": "Concept preview",
-      "year": "Draft",
-      "role": "Videographer",
-      "roles": [
-        "Videographer"
+      "video": "",
+      "tone": "blue",
+      "stills": [
+        "assets/portfolio-v11/urup-2026/01.webp",
+        "assets/portfolio-v11/urup-2026/02.webp",
+        "assets/portfolio-v11/urup-2026/03.webp",
+        "assets/portfolio-v11/urup-2026/04.webp",
+        "assets/portfolio-v11/urup-2026/05.webp",
+        "assets/portfolio-v11/urup-2026/06.webp",
+        "assets/portfolio-v11/urup-2026/07.webp",
+        "assets/portfolio-v11/urup-2026/08.webp",
+        "assets/portfolio-v11/urup-2026/09.webp"
       ],
-      "dummy": true,
-      "description": "Proyek dummy untuk mengeksplorasi tampilan katalog. Bukan klaim karya atau kredit nyata Ary Noor.",
-      "craft": "Materi proyek, sinopsis, dan kredit akan diganti setelah dikonfirmasi.",
-      "cover": "",
-      "video": "",
-      "watchUrl": "",
-      "credits": [],
-      "stills": [],
-      "tone": "blue"
+      "cover": "assets/portfolio-v11/urup-2026/01.webp",
+      "focalPoint": "right center"
     }
   ],
   "tagline": "Hi, Ary is here",
@@ -269,5 +365,10 @@ window.PORTFOLIO = {
     "producer": "assets/category-producer-refined.webp",
     "videographer": "assets/category-videographer-refined.webp"
   },
-  "heroBackground": "assets/ary-noor-hero-wide.webp"
+  "heroBackground": "assets/ary-noor-hero-wide.webp",
+  "featuredProjectIds": [
+    "let-it-stay-with-you",
+    "lempar-bola-disko",
+    "setiap-orang-punya-kesempatan"
+  ]
 };

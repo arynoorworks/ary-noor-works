@@ -11,7 +11,7 @@
       <div class="inquiry-field"><label for="inquiry-email">Email Address <span aria-hidden="true">*</span></label><input id="inquiry-email" name="email" type="email" autocomplete="email" required maxlength="200"></div>
       <div class="inquiry-field"><label for="inquiry-project">Project Description <span aria-hidden="true">*</span></label><textarea id="inquiry-project" name="project" required minlength="10" maxlength="4000" rows="3"></textarea></div>
       <p class="inquiry-handoff">Opens WhatsApp with your inquiry. You review and send the message there.</p>
-      <button class="glass-button inquiry-send" type="submit">Send Inquiry <span aria-hidden="true">↗</span></button>
+      <button class="glass-button inquiry-send" type="submit">Send Inquiry</button>
       <p class="inquiry-status" role="status" aria-live="polite"></p>
     </form></div>`;
   document.body.append(dialog);
