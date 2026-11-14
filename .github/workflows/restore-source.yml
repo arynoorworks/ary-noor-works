@@ -1,0 +1,29 @@
+name: Restore complete ANW source
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore exact website files and assets
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          for archive in sorted(Path('.').glob('anw-source-part-*.zip')):
+              with ZipFile(archive) as bundle:
+                  for member in bundle.namelist():
+                      p = Path(member)
+                      assert not p.is_absolute() and '..' not in p.parts
+                  bundle.extractall('.')
+          assert Path('index.html').is_file()
+          assert Path('assets/logo-anw-refined-2k.png').is_file()
+          PY
+          git config user.name "arynoorworks"
+          git config user.email "arynoorworks@users.noreply.github.com"
+          git add --all
+          git diff --cached --quiet || git commit -m "Publish current ARY NOOR WORKS source and all assets"
+          git push
